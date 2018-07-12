@@ -26,10 +26,10 @@ Pretty simple, right? Well this is where it gets interesting:
 
 - Once the sell by date has passed, Price degrades twice as fast
 - The Price of an item is never negative
-- "Japanese Demin" actually increases in Price the older it gets
+- "Japanese Denim" actually increases in Price the older it gets
 - The Price of an item is never more than 50
 - "White Vest Top", being a stable of the wardrobe, never has to be sold or decreases in price
-- "Fashion Show Tickets", like Japanese Demin, increases in Price as it's SellIn value approaches; Price increases by 2 when there are 10 days or less and by 3 when there are 5 days or less but Price drops to 0 after the fashion show.
+- "Fashion Show Tickets", like Japanese Denim, increases in Price as it's SellIn value approaches; Price increases by 2 when there are 10 days or less and by 3 when there are 5 days or less but Price drops to 0 after the fashion show.
 
 We have recently signed a supplier of Homeware items. This requires an update to our system:
 
