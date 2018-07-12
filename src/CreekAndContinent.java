@@ -21,17 +21,17 @@ public class CreekAndContinent {
             return;
         }
 
-        if (this.name == "Japanese Denim") {
+        if (this.name.equals("Japanese Denim")) {
             this.japaneseDenimTick();
             return;
         }
 
-        if (this.name == "White Vest Top") {
+        if (this.name.equals("White Vest Top")) {
             this.whiteVestTopTick();
             return;
         }
 
-        if (this.name == "Fashion Show Tickets") {
+        if (this.name.equals("Fashion Show Tickets")) {
             this.fashionShowTick();
             return;
         }
