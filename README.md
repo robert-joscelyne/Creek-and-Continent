@@ -5,7 +5,7 @@ Bases on the popular Gilded Rose kata
 This repository includes the initial setup for this Kata, including the tests. 
 Your job is to:
 
-1. Refactor the monstrous code in the `CreekAndContinent.java` class.
+1. Refactor the monstrous code in the `Item.java` class.
 2. Add a new item type, "Homeware Hand Towel". The specs for this item are commented out in the `CreekAndContinentTest.java` file.
 
 When finished (or for help), you may review the solution by switching to the "solution" branch of this repo.
