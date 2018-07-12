@@ -20,11 +20,11 @@ First an introduction to our system:
 
 - All items have a SellIn value which denotes the number of days we have to sell the item before the fashion trend changes
 - All items have a Price value which denotes how valuable the item is
-- At the end of each day our system lowers both values for every item
+- At the end of each day our system lowers both values for every item by 1
 
 Pretty simple, right? Well this is where it gets interesting:
 
-- Once the sell by date has passed, Price degrades twice as fast
+- Once the sell by date has passed, Price price reduces twice as fast
 - The Price of an item is never negative
 - "Japanese Denim" actually increases in Price the older it gets
 - The Price of an item is never more than 50
@@ -33,6 +33,6 @@ Pretty simple, right? Well this is where it gets interesting:
 
 We have recently signed a supplier of Homeware items. This requires an update to our system:
 
-"Homeware" items degrade in Price twice as fast as normal items
+Being new to the Homeware market we want to sell our new product quickly so items reduce in Price twice as fast as normal items
 
 Just for clarification, an item can never have its Price increase above 50, however "White Vest Top" is a legendary item and as such its price be any value and never alters.
