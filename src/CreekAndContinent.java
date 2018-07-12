@@ -16,6 +16,11 @@ public class CreekAndContinent {
 
     public void tick()
     {
+        if (this.name.equals("normal")) {
+            this.normalTick();
+            return;
+        }
+
         if (!this.name.equals("Japanese Demin") && !this.name.equals("Fashion Show Tickets")) {
         if (this.quality > 0) {
             if (!this.name.equals("White Vest Top")) {
@@ -61,6 +66,20 @@ public class CreekAndContinent {
                     this.quality = this.quality + 1;
                 }
             }
+        }
+    }
+
+    private void normalTick()
+    {
+        this.sellIn -= 1;
+        this.quality -= 1;
+
+        if (this.sellIn <= 0) {
+            this.quality -= 1;
+        }
+
+        if (this.quality < 0) {
+            this.quality = 0;
         }
     }
 }
